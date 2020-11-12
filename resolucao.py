@@ -414,7 +414,7 @@ def teste_output_christophe():
     
     nomes_arquivos = os.listdir(os.getcwd()+"/"+"Output_christophe_heuristica")
     nomes_arquivos = [i for i in nomes_arquivos if 'ta' in i]
-    
+    nomes_arquivos.sort()
     for i in range(2, numero_instancias):
         #i["lista_ub"].append()
         ub = int(nomes_arquivos[i-2].replace("ta"+"{:02d}".format(i-1)+"-", "").replace(".txt", ""))
@@ -427,5 +427,5 @@ def teste_output_christophe():
     df = execucao_modelos(lista_instancias
                           ,lista_modelos
                           ,prefixo_arq="t_sol"
-                          ,tempo_max=7200
+                          ,tempo_max=72#00
                           ,fl_primeira_sol=False)
