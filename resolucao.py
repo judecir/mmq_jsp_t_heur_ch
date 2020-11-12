@@ -427,5 +427,5 @@ def teste_output_christophe():
     df = execucao_modelos(lista_instancias
                           ,lista_modelos
                           ,prefixo_arq="t_sol"
-                          ,tempo_max=72#00
+                          ,tempo_max=7200
                           ,fl_primeira_sol=False)
