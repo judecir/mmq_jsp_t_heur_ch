@@ -1,0 +1,504 @@
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              201903125
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_Output_IntSolFilePrefix                 "solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol"
+Tried aggregator 1 time.
+Reduced MIP has 3375 rows, 1801 columns, and 9900 nonzeros.
+Reduced MIP has 1575 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.40 ticks)
+Found incumbent of value 9635.000000 after 0.02 sec. (22.64 ticks)
+Probing time = 0.00 sec. (1.43 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 3375 rows, 1801 columns, and 9900 nonzeros.
+Reduced MIP has 1575 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.28 ticks)
+Probing time = 0.00 sec. (1.43 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (29.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         9635.0000      963.0000            90.01%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00001.sol'.
+      0     0      963.0000   179     9635.0000      963.0000      822   90.01%
+*     0+    0                         9372.0000      963.0000            89.72%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00002.sol'.
+      0     0      982.4702   179     9372.0000      Cuts: 98      992   89.52%
+      0     0     1012.0256   179     9372.0000     Cuts: 126     1240   89.20%
+      0     0     1014.5504   179     9372.0000      Cuts: 90     1353   89.17%
+      0     0     1014.9650   179     9372.0000      Cuts: 50     1421   89.17%
+*     0+    0                         1681.0000     1014.9650            39.62%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00003.sol'.
+      0     0     1014.9650   179     1681.0000      Cuts: 86     1464   39.62%
+Detecting symmetries...
+      0     0     1014.9650   179     1681.0000      Cuts: 72     1588   39.62%
+*     0+    0                         1576.0000     1014.9650            35.60%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00004.sol'.
+      0     0     1014.9650   179     1576.0000     Cuts: 251     1734   35.60%
+*     0+    0                         1522.0000     1014.9650            33.31%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00005.sol'.
+*     0+    0                         1487.0000     1014.9650            31.74%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00006.sol'.
+*     0+    0                         1466.0000     1014.9650            30.77%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00007.sol'.
+*     0+    0                         1434.0000     1014.9650            29.22%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00008.sol'.
+*     0+    0                         1433.0000     1014.9650            29.17%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00009.sol'.
+*     0+    0                         1422.0000     1014.9650            28.62%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00010.sol'.
+*     0+    0                         1416.0000     1014.9650            28.32%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00011.sol'.
+*     0+    0                         1414.0000     1014.9650            28.22%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00012.sol'.
+*     0+    0                         1411.0000     1014.9650            28.07%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00013.sol'.
+*     0+    0                         1408.0000     1014.9650            27.91%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00014.sol'.
+      0     0  -1.00000e+75     0     1408.0000     1014.9650     1734   27.91%
+*     0+    0                         1385.0000     1014.9650            26.72%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00015.sol'.
+Detecting symmetries...
+      0     2     1014.9650   129     1385.0000     1014.9650     1740   26.72%
+Elapsed time = 1.82 sec. (1531.63 ticks, tree = 0.02 MB, solutions = 15)
+    272   203    infeasible           1385.0000     1021.0000    10285   26.28%
+*   477+  267                         1380.0000     1021.0000            26.01%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00016.sol'.
+*   591+  267                         1366.0000     1021.0000            25.26%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00017.sol'.
+    672   563     1228.0000    74     1366.0000     1021.0000    24091   25.26%
+*   716+  267                         1349.0000     1021.0000            24.31%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00018.sol'.
+*   888+  465                         1338.0000     1021.0000            23.69%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00019.sol'.
+*   982+  465                         1337.0000     1021.0000            23.64%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00020.sol'.
+   1065   891     1201.0000    53     1337.0000     1021.0000    31970   23.64%
+*  1071+  465                         1336.0000     1021.0000            23.58%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00021.sol'.
+*  1156+  465                         1325.0000     1021.0000            22.94%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00022.sol'.
+*  1341+  465                         1324.0000     1021.0000            22.89%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00023.sol'.
+*  1348+  465                         1322.0000     1021.0000            22.77%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00024.sol'.
+*  1351+  465                         1320.0000     1021.0000            22.65%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00025.sol'.
+   1351  1157     1312.0000    50     1320.0000     1021.0000    37278   22.65%
+*  1356+  465                         1319.0000     1021.0000            22.59%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00026.sol'.
+*  1357+  465                         1312.0000     1021.0000            22.18%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00027.sol'.
+*  1357+  465                         1310.0000     1021.0000            22.06%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00028.sol'.
+*  1359+  465                         1307.0000     1021.0000            21.88%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00029.sol'.
+*  1361+  465                         1304.0000     1021.0000            21.70%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00030.sol'.
+*  1391+  465                         1300.0000     1021.0000            21.46%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00031.sol'.
+   1425  1173     1021.0000   125     1300.0000     1021.0000    38692   21.46%
+*  1442+  465                         1297.0000     1021.0000            21.28%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00032.sol'.
+   1792  1342     1169.0000    80     1297.0000     1021.0000    44021   21.28%
+   1798  1099     1088.0000    81     1297.0000     1021.0000    35854   21.28%
+*  1799+ 1089                         1292.0000     1021.0000            20.98%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00033.sol'.
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 227 rows and 158 columns.
+MIP Presolve modified 4252 coefficients.
+Reduced MIP has 3148 rows, 1643 columns, and 9130 nonzeros.
+Reduced MIP has 1417 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.32 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1 columns.
+MIP Presolve modified 26 coefficients.
+Reduced MIP has 3147 rows, 1642 columns, and 9126 nonzeros.
+Reduced MIP has 1416 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.12 ticks)
+Represolve time = 0.06 sec. (69.64 ticks)
+*  1802+    0                         1279.0000     1021.0000            20.17%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00034.sol'.
+   1802     0     1018.9344   176     1279.0000     Cuts: 886    49230   20.17%
+   1802     0     1020.4962   176     1279.0000     Cuts: 396    49471   20.17%
+   1802     0     1021.0000   176     1279.0000     Cuts: 712    49821   20.17%
+   1802     0     1021.0000   176     1279.0000     Cuts: 632    50236   20.17%
+   1802     0     1021.0000   176     1279.0000     Cuts: 599    50717   20.17%
+   1802     0     1021.0007   176     1279.0000     Cuts: 769    51292   20.17%
+   1802     0     1021.0077   176     1279.0000     Cuts: 548    51551   20.17%
+   1802     0     1021.0077   176     1279.0000     Cuts: 421    51745   20.17%
+   1802     0     1021.0086   176     1279.0000     Cuts: 154    51879   20.15%
+   1802     0     1021.0086   176     1279.0000     Cuts: 491    52143   20.15%
+   1802     0     1021.0313   176     1279.0000     Cuts: 659    52374   20.15%
+   1802     0     1021.0777   176     1279.0000     Cuts: 462    52551   20.15%
+   1802     0     1021.3387   176     1279.0000     Cuts: 184    52723   20.15%
+   1802     0     1021.3387   176     1279.0000     Cuts: 439    52947   20.15%
+*  1802+    0                         1278.0000     1021.3410            20.08%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00035.sol'.
+*  1802+    0                         1276.0000     1021.3410            19.96%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00036.sol'.
+   1802     0  -1.00000e+75     0     1276.0000     1021.3410    52947   19.96%
+   1802     2     1021.3387   125     1276.0000     1021.3410    52947   19.96%
+   1810    10     1053.0000   133     1276.0000     1023.0000    53349   19.83%
+*  1811+    3                         1274.0000     1023.0000            19.70%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00037.sol'.
+*  1817+    7                         1273.0000     1023.0000            19.64%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00038.sol'.
+*  1821+    2                         1273.0000     1023.0000            19.64%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00039.sol'.
+   2498   574     1155.0000    96     1273.0000     1029.7170    78976   19.11%
+Elapsed time = 10.01 sec. (9078.70 ticks, tree = 0.82 MB, solutions = 98)
+   3594  1478     1094.3837   167     1273.0000     1038.8125   127927   18.40%
+   4873  2413     1119.6108   133     1273.0000     1043.8157   174066   18.00%
+   6039  3382     1052.1299   131     1273.0000     1051.3096   223340   17.41%
+   7224  4254     1265.0000    45     1273.0000     1056.0000   269780   17.05%
+*  7299+ 4389                         1272.0000     1056.0000            16.98%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00040.sol'.
+   8116  5023     1082.0000   134     1272.0000     1058.0000   312077   16.82%
+   9347  5977     1193.0000    80     1272.0000     1061.0000   363698   16.59%
+*  9657+ 6093                         1271.0000     1062.0000            16.44%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00041.sol'.
+*  9665+ 6093                         1270.0000     1062.0000            16.38%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00042.sol'.
+  10254  6338     1078.4996   120     1270.0000     1062.2169   394020   16.36%
+  11314  7035     1080.5709   120     1270.0000     1063.6119   434659   16.25%
+  12203  8090     1222.0000    93     1270.0000     1064.3678   492308   16.19%
+  13518  9016     1188.0000    98     1270.0000     1064.5000   534039   16.18%
+Elapsed time = 23.82 sec. (18652.71 ticks, tree = 11.05 MB, solutions = 101)
+  14868  9832     1142.7355   107     1270.0000     1065.3410   583817   16.11%
+  15430 10456     1247.0000    90     1270.0000     1066.7797   626326   16.00%
+  16898 11120     1071.4693   132     1270.0000     1071.4693   672155   15.63%
+  17408 11943     1199.0000    97     1270.0000     1073.0000   734875   15.51%
+* 17696+12055                         1269.0000     1073.0000            15.45%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00043.sol'.
+  18920 12825     1199.0000    95     1269.0000     1076.6601   793421   15.16%
+* 19078 13222      integral     0     1267.0000     1077.0000   822643   15.00%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00044.sol'.
+* 19103+13132                         1266.0000     1077.0000            14.93%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00045.sol'.
+* 19120+13132                         1265.0000     1077.0000            14.86%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00046.sol'.
+* 19121+13117                         1262.0000     1077.0000            14.66%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00047.sol'.
+* 19147+13132                         1261.0000     1077.0000            14.59%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00048.sol'.
+* 19163+13117                         1260.0000     1077.0000            14.52%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00049.sol'.
+* 19180+13117                         1257.0000     1077.0000            14.32%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00050.sol'.
+* 19258+13117                         1256.0000     1077.0000            14.25%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00051.sol'.
+  19366 13199     1166.5000   101     1256.0000     1077.0000   829814   14.25%
+  20816 13412     1212.0000    57     1256.0000     1077.0000   877136   14.25%
+  20987 13887        cutoff           1256.0000     1077.0000   927087   14.25%
+* 21245+13890                         1253.0000     1077.0000            14.05%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00052.sol'.
+* 21387+13748                         1252.0000     1077.0000            13.98%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00053.sol'.
+* 21400+13825                         1250.0000     1077.0000            13.84%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00054.sol'.
+* 21403+13744                         1249.0000     1077.0000            13.77%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00055.sol'.
+* 21408+13744                         1248.0000     1077.0000            13.70%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00056.sol'.
+* 21420+13801                         1248.0000     1077.0000            13.70%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00057.sol'.
+  21449 13648     1243.0000    80     1248.0000     1078.0083   963189   13.62%
+  22025 13764     1238.0000    90     1248.0000     1079.6393   978332   13.49%
+Elapsed time = 37.97 sec. (28207.53 ticks, tree = 16.37 MB, solutions = 140)
+  23012 14444     1111.0000   105     1248.0000     1080.0000  1037837   13.46%
+  23198 14741     1184.0000   103     1248.0000     1082.0887  1076137   13.29%
+  23401 14838     1222.2794    68     1248.0000     1082.1974  1103559   13.29%
+  24541 14973     1130.2742   149     1248.0000     1083.8301  1129546   13.15%
+  24820 15735     1163.6957   119     1248.0000     1085.0000  1206331   13.06%
+  25041 15824     1199.0000   115     1248.0000     1086.0000  1229141   12.98%
+  26439 16285     1116.0000   125     1248.0000     1086.9346  1276968   12.91%
+  26858 16872     1164.3054   106     1248.0000     1087.3375  1330938   12.87%
+  27033 17018     1189.0000    81     1248.0000     1087.6949  1369193   12.84%
+  27298 17060        cutoff           1248.0000     1089.0000  1389042   12.74%
+Elapsed time = 53.19 sec. (37789.00 ticks, tree = 20.40 MB, solutions = 140)
+  27881 17292     1224.0000    73     1248.0000     1091.0000  1433198   12.58%
+  28890 18065     1141.0000   128     1248.0000     1091.0864  1504907   12.57%
+  29069 18199     1093.0000   163     1248.0000     1091.6693  1527166   12.53%
+  29889 18353     1109.2411   139     1248.0000     1091.8236  1560716   12.51%
+  31054 18799     1199.0000    82     1248.0000     1093.0000  1598262   12.42%
+  31281 19643        cutoff           1248.0000     1093.8171  1681289   12.35%
+  31688 19739     1199.0000   106     1248.0000     1094.0000  1695116   12.34%
+  33074 19857     1140.7318   117     1248.0000     1094.5094  1710937   12.30%
+  33624 20431     1157.1515   105     1248.0000     1094.5094  1761074   12.30%
+  33765 21168        cutoff           1248.0000     1094.5094  1842589   12.30%
+Elapsed time = 67.96 sec. (47333.83 ticks, tree = 26.42 MB, solutions = 140)
+* 33778+21151                         1246.0000     1094.5094            12.16%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00058.sol'.
+* 33827+21151                         1244.0000     1094.5094            12.02%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00059.sol'.
+  33860 21216     1117.2598   126     1244.0000     1094.5094  1853620   12.02%
+* 34160+21151                         1242.0000     1094.5094            11.88%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00060.sol'.
+* 34165+21151                         1241.0000     1094.5094            11.80%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00061.sol'.
+* 34189+21151                         1240.0000     1094.5094            11.73%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00062.sol'.
+* 34204+21151                         1236.0000     1094.5094            11.45%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00063.sol'.
+* 34327+21133                         1235.0000     1094.5094            11.38%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00064.sol'.
+  34493 21335     1152.0000   130     1235.0000     1094.5094  1869868   11.38%
+* 34933+21133                         1233.0000     1094.5094            11.23%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00065.sol'.
+  34945 21549     1170.2532   108     1233.0000     1094.5094  1888708   11.23%
+  35028 21855     1094.7500   118     1233.0000     1094.5094  1916888   11.23%
+* 35072+21162                         1232.0000     1094.5094            11.16%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00066.sol'.
+* 35072+21162                         1230.0000     1094.5094            11.02%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00067.sol'.
+* 35073+21162                         1228.0000     1094.5094            10.87%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00068.sol'.
+  35126 21920     1108.7736   131     1228.0000     1094.5094  1934014   10.87%
+  35564 20886     1188.0394    78     1228.0000     1094.5094  1952369   10.87%
+  36179 20989     1168.2371   112     1228.0000     1094.5094  1968601   10.87%
+  36314 21370     1202.0000    65     1228.0000     1094.5094  2014640   10.87%
+  36453 21441     1185.5000    88     1228.0000     1094.5094  2046663   10.87%
+  36633 20195     1139.0000   118     1228.0000     1094.5094  2054134   10.87%
+Elapsed time = 83.08 sec. (56971.60 ticks, tree = 24.88 MB, solutions = 166)
+
+Performing restart 2
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 239 rows and 168 columns.
+MIP Presolve modified 3538 coefficients.
+Reduced MIP has 2908 rows, 1474 columns, and 8587 nonzeros.
+Reduced MIP has 1248 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.18 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 0 columns.
+MIP Presolve modified 2363 coefficients.
+Reduced MIP has 2907 rows, 1474 columns, and 8585 nonzeros.
+Reduced MIP has 1248 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.86 ticks)
+Represolve time = 0.10 sec. (80.38 ticks)
+  36684     0     1021.3815   231     1228.0000     Cuts: 760  2110178   10.75%
+  36684     0     1021.3815   231     1228.0000     Cuts: 345  2110433   10.75%
+  36684     0     1021.4191   231     1228.0000     Cuts: 101  2110586   10.75%
+  36684     0     1021.4975   231     1228.0000     Cuts: 402  2110800   10.75%
+  36684     0     1021.4975   231     1228.0000     Cuts: 279  2111054   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 826  2111421   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 310  2111592   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 451  2111812   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 276  2111953   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 451  2112154   10.75%
+  36684     0     1021.5339   231     1228.0000     Cuts: 267  2112396   10.75%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 67 rows and 73 columns.
+MIP Presolve modified 2758 coefficients.
+Reduced MIP has 2840 rows, 1401 columns, and 9209 nonzeros.
+Reduced MIP has 1175 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.83 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 36 rows and 25 columns.
+MIP Presolve modified 252 coefficients.
+Reduced MIP has 2804 rows, 1376 columns, and 8883 nonzeros.
+Reduced MIP has 1150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (3.64 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 8 coefficients.
+Reduced MIP has 2804 rows, 1376 columns, and 8883 nonzeros.
+Reduced MIP has 1150 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (4.73 ticks)
+Represolve time = 0.19 sec. (159.08 ticks)
+  36684     0     1021.5339   198     1228.0000     Cuts: 801  2113557   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 611  2113802   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 179  2113967   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 405  2114182   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 196  2114360   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 564  2114564   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 203  2114759   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 597  2115055   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 105  2115228   10.75%
+  36684     0     1021.5339   198     1228.0000     Cuts: 380  2115394   10.75%
+  36684     0     1021.5398   198     1228.0000     Cuts: 178  2115731   10.75%
+  36684     2     1021.5398   142     1228.0000     1096.0000  2115731   10.75%
+  36829   112     1227.0000    73     1228.0000     1096.0000  2127911   10.75%
+  37045   251     1212.0000    83     1228.0000     1096.0000  2144967   10.75%
+  37388   454     1182.0000    84     1228.0000     1096.0000  2178281   10.75%
+  37808   726        cutoff           1228.0000     1096.0000  2235433   10.75%
+  38356  1004     1219.0000    91     1228.0000     1096.0000  2298291   10.75%
+  38813  1300     1120.2371   124     1228.0000     1096.0000  2368014   10.75%
+  39228  1498     1132.0000   103     1228.0000     1096.0000  2428440   10.75%
+  39650  1681     1213.9485    86     1228.0000     1096.0000  2489547   10.75%
+  40180  1903     1218.3033    99     1228.0000     1098.0000  2554934   10.59%
+Elapsed time = 104.91 sec. (74933.40 ticks, tree = 3.71 MB, solutions = 166)
+  40741  2120     1105.2943   139     1228.0000     1098.0000  2627522   10.59%
+  41256  2356        cutoff           1228.0000     1099.6524  2697288   10.45%
+  41681  2577     1205.0000    70     1228.0000     1099.6606  2775352   10.45%
+  42284  2824     1214.0000    70     1228.0000     1099.9018  2839222   10.43%
+  42735  3112     1209.0000    88     1228.0000     1099.9018  2901765   10.43%
+  43290  3331     1192.0000    87     1228.0000     1100.7886  2962173   10.36%
+  43788  3556     1185.0000    91     1228.0000     1101.3148  3035168   10.32%
+  44277  3778     1215.0000    81     1228.0000     1101.5938  3109345   10.29%
+  44842  4042     1195.0000   108     1228.0000     1103.9426  3190105   10.10%
+  45330  4278        cutoff           1228.0000     1106.9080  3266030    9.86%
+Elapsed time = 117.15 sec. (84492.42 ticks, tree = 6.04 MB, solutions = 166)
+  45889  4490     1160.0000    97     1228.0000     1108.1934  3323957    9.76%
+  46428  4717        cutoff           1228.0000     1108.7736  3394043    9.71%
+  46852  4926     1191.0000   104     1228.0000     1109.0601  3479965    9.69%
+  47348  5117     1172.0000    71     1228.0000     1110.9232  3551427    9.53%
+  47918  5234     1192.0000    70     1228.0000     1112.0139  3602597    9.45%
+  48308  5463     1114.0000   132     1228.0000     1114.0000  3691561    9.28%
+  48800  5691        cutoff           1228.0000     1114.0000  3782885    9.28%
+  49245  5795     1202.0000   120     1228.0000     1115.0000  3829045    9.20%
+  49709  6078     1180.0000    81     1228.0000     1115.0000  3918874    9.20%
+  50191  6187        cutoff           1228.0000     1115.0000  3956241    9.20%
+Elapsed time = 130.01 sec. (94043.51 ticks, tree = 7.97 MB, solutions = 166)
+  50670  6428     1155.0000   113     1228.0000     1116.0000  4052274    9.12%
+  51165  6556        cutoff           1228.0000     1116.0035  4094810    9.12%
+  51541  6791     1227.0000    55     1228.0000     1117.0000  4187835    9.04%
+  52000  6956     1158.5832   128     1228.0000     1117.0000  4255279    9.04%
+  52426  7079        cutoff           1228.0000     1117.0000  4318441    9.04%
+  52924  7254     1147.0000   114     1228.0000     1117.5051  4402001    9.00%
+  53328  7357     1143.2920   123     1228.0000     1120.0000  4461462    8.79%
+  53835  7589     1223.0000    66     1228.0000     1121.0000  4548424    8.71%
+  54425  7665     1178.0000    83     1228.0000     1121.0000  4585759    8.71%
+  56582  8454     1203.0000   104     1228.0000     1122.0000  4896713    8.63%
+Elapsed time = 146.28 sec. (106457.90 ticks, tree = 10.09 MB, solutions = 166)
+  58593  9239     1186.0000    90     1228.0000     1125.0000  5245634    8.39%
+  60636  9960     1194.0000    77     1228.0000     1128.0000  5555012    8.14%
+  62421 10470     1136.8389   131     1228.0000     1129.0000  5780392    8.06%
+  64202 11033     1157.0000    90     1228.0000     1129.0000  6124674    8.06%
+  66123 11463        cutoff           1228.0000     1132.0000  6428277    7.82%
+  68044 11965     1218.0000   113     1228.0000     1132.0000  6680858    7.82%
+  69757 12519     1133.6931   111     1228.0000     1132.0000  7029877    7.82%
+  71885 13231        cutoff           1228.0000     1133.0000  7338544    7.74%
+  73826 13784        cutoff           1228.0000     1133.0000  7550759    7.74%
+  75582 14282     1138.0000    97     1228.0000     1136.5341  7855041    7.45%
+Elapsed time = 197.59 sec. (144629.88 ticks, tree = 16.14 MB, solutions = 166)
+* 76443+14600                         1227.0000     1137.0000             7.33%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00069.sol'.
+* 76480+14524                         1226.0000     1137.0000             7.26%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00070.sol'.
+* 77206+14510                         1225.0000     1137.0000             7.18%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00071.sol'.
+  77762 14529     1222.0000    75     1225.0000     1137.3853  8192347    7.15%
+* 77805+14526                         1224.0000     1137.3853             7.08%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00072.sol'.
+  79889 14853        cutoff           1224.0000     1139.0000  8515410    6.94%
+  81998 15490     1141.5788   108     1224.0000     1140.6057  8811229    6.81%
+  83834 15946     1205.0000    91     1224.0000     1142.0000  9107270    6.70%
+  85614 16279     1210.0000   122     1224.0000     1143.0000  9374491    6.62%
+  87391 16713     1211.0000    80     1224.0000     1145.0000  9681717    6.45%
+  89318 17062     1157.8218   116     1224.0000     1146.0000 10029781    6.37%
+  91338 17404     1220.0000    60     1224.0000     1147.0000 10319694    6.29%
+  93039 17717     1202.0000    82     1224.0000     1149.0000 10581893    6.13%
+* 93447+17811                         1223.0000     1149.0000             6.05%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00073.sol'.
+  94584 17719     1152.0000    91     1223.0000     1149.2326 10854390    6.03%
+Elapsed time = 247.32 sec. (182805.92 ticks, tree = 20.22 MB, solutions = 171)
+  96481 17893     1153.0000   130     1223.0000     1150.8648 11195268    5.90%
+  98795 18219     1180.6139    89     1223.0000     1152.0000 11497231    5.81%
+ 100756 18516     1155.0000   105     1223.0000     1153.8043 11766770    5.66%
+ 102475 18922     1155.2778   108     1223.0000     1154.7023 12074219    5.58%
+ 104350 19427     1207.0000   101     1223.0000     1155.0000 12363065    5.56%
+ 106012 20111     1198.0000    93     1223.0000     1155.0000 12719054    5.56%
+ 107861 20495     1167.0000   106     1223.0000     1155.0000 12990686    5.56%
+ 109828 20806     1156.0000    96     1223.0000     1155.1515 13335341    5.55%
+ 112118 21161     1161.9370    83     1223.0000     1156.0000 13584464    5.48%
+ 114139 21332     1193.0000    86     1223.0000     1156.4001 13834731    5.45%
+Elapsed time = 297.16 sec. (220965.06 ticks, tree = 24.60 MB, solutions = 171)
+*115452+21473                         1222.0000     1157.0000             5.32%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00074.sol'.
+ 115882 21381     1158.0667   119     1222.0000     1157.0000 14267443    5.32%
+ 117482 21314     1198.0000    90     1222.0000     1158.0000 14456321    5.24%
+ 119673 21656     1220.0000    65     1222.0000     1158.5934 14888221    5.19%
+ 121376 21882     1170.0000   103     1222.0000     1159.0000 15194487    5.16%
+ 123262 21875     1159.0000   115     1222.0000     1159.0000 15487908    5.16%
+ 125185 22014     1167.7984   116     1222.0000     1160.0000 15752513    5.07%
+ 127219 22139     1210.0000   111     1222.0000     1160.8363 16004512    5.01%
+*127734+22177                         1221.0000     1161.0000             4.91%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00075.sol'.
+ 129131 21910        cutoff           1221.0000     1162.0000 16326842    4.83%
+ 131027 21975     1164.0000   134     1221.0000     1163.0000 16650726    4.75%
+ 132793 22083        cutoff           1221.0000     1164.0000 17043267    4.67%
+Elapsed time = 348.44 sec. (259130.24 ticks, tree = 25.74 MB, solutions = 173)
+ 134441 21973     1166.5315   110     1221.0000     1164.0000 17269735    4.67%
+ 136599 22064     1195.4154    94     1221.0000     1165.0000 17629173    4.59%
+ 138381 22233        cutoff           1221.0000     1166.0000 17875337    4.50%
+ 139938 22386     1213.0000    86     1221.0000     1167.0000 18205863    4.42%
+ 141899 22618        cutoff           1221.0000     1167.0000 18523989    4.42%
+ 144097 22716     1215.0000    93     1221.0000     1167.0000 18749224    4.42%
+ 145845 22813     1190.0000   122     1221.0000     1167.0000 19188003    4.42%
+ 147678 22593     1187.7426    93     1221.0000     1168.0000 19394317    4.34%
+ 149599 22526     1219.4394    69     1221.0000     1170.0000 19720439    4.18%
+ 151335 22565        cutoff           1221.0000     1170.0000 20086180    4.18%
+Elapsed time = 399.26 sec. (297292.50 ticks, tree = 26.25 MB, solutions = 173)
+ 153487 22520     1215.0000    56     1221.0000     1171.0000 20365160    4.10%
+ 155636 22506     1192.0000    67     1221.0000     1172.0000 20634581    4.01%
+ 157597 22401        cutoff           1221.0000     1173.0000 20981263    3.93%
+ 159188 22214        cutoff           1221.0000     1174.0000 21310536    3.85%
+ 161436 22150     1196.0000    75     1221.0000     1175.0000 21631309    3.77%
+ 163461 22217     1217.0000    76     1221.0000     1176.0000 21996315    3.69%
+ 165380 22044     1179.0000    77     1221.0000     1176.7123 22239825    3.63%
+ 167760 21846     1179.0000    88     1221.0000     1177.1842 22628648    3.59%
+ 169670 21637        cutoff           1221.0000     1178.2500 22929970    3.50%
+*171646+21216                         1220.0000     1179.0000             3.36%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00076.sol'.
+ 171880 20730     1211.0000    78     1220.0000     1179.0000 23299455    3.36%
+Elapsed time = 449.82 sec. (335460.98 ticks, tree = 24.04 MB, solutions = 174)
+*172611+20723                         1217.0000     1179.9545             3.04%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00077.sol'.
+*172614+20722                         1216.0000     1179.9545             2.96%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00078.sol'.
+ 173592 19032     1212.0000    59     1216.0000     1180.6139 23566976    2.91%
+ 175815 18671     1184.2871    90     1216.0000     1181.2102 23814629    2.86%
+ 177668 18272     1207.0000    84     1216.0000     1182.0000 24081536    2.80%
+ 179991 17927     1201.0000    78     1216.0000     1183.5625 24383371    2.67%
+ 181932 17140     1197.0000    90     1216.0000     1184.2791 24863427    2.61%
+ 184202 16513     1212.0000    63     1216.0000     1186.0000 25164760    2.47%
+ 186464 16339     1200.0000    69     1216.0000     1187.0000 25323560    2.38%
+*187814+15757                         1214.0000     1189.0000             2.06%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00079.sol'.
+*187840+14362                         1212.0000     1189.0000             1.90%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00080.sol'.
+ 188327 12856     1204.0000    73     1212.0000     1189.0000 25845574    1.90%
+ 190910 11882     1198.7972    78     1212.0000     1190.4523 26246662    1.78%
+*192257+11207                         1211.0000     1193.0000             1.49%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00081.sol'.
+*192471+10424                         1210.0000     1193.6733             1.35%
+New incumbent written to file 'solucoes/t_sol_ID003M015J015_ZintTrue_manne_ub0/sol-00082.sol'.
+ 193583  9338     1209.0000    89     1210.0000     1194.0000 26530452    1.32%
+Elapsed time = 501.51 sec. (373637.53 ticks, tree = 10.95 MB, solutions = 185)
+ 196137  8324     1198.0000    91     1210.0000     1196.0000 26800208    1.16%
+ 197995  7833        cutoff           1210.0000     1197.0000 27018071    1.07%
+ 200781  6884     1198.0000    70     1210.0000     1198.0000 27376003    0.99%
+ 203479  5595     1202.0000    74     1210.0000     1201.0000 27797755    0.74%
+ 205942  4066        cutoff           1210.0000     1203.0000 28179167    0.58%
+ 208492  2787    infeasible           1210.0000     1204.0000 28480603    0.50%
+
+GUB cover cuts applied:  2
+Clique cuts applied:  3
+Cover cuts applied:  126
+Implied bound cuts applied:  138
+Flow cuts applied:  166
+Mixed integer rounding cuts applied:  979
+Lift and project cuts applied:  149
+Gomory fractional cuts applied:  113
+
+Root node processing (before b&c):
+  Real time             =    1.81 sec. (1532.53 ticks)
+Parallel b&c, 8 threads:
+  Real time             =  536.84 sec. (398496.33 ticks)
+  Sync time (average)   =   44.76 sec.
+  Wait time (average)   =    0.08 sec.
+                          ------------
+Total (root+branch&cut) =  538.65 sec. (400028.86 ticks)
